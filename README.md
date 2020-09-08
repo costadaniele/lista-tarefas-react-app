@@ -20,3 +20,5 @@ Criar:
 ## Instalar prop-types
 
 `npm i prop-types`
+
+![Gif-do-programa-do-react-lista-tarefas](img/lista-tarefas.gif)
