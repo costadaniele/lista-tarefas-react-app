@@ -1,5 +1,6 @@
 .main {
-    background: #242331;
+    background: #c4c4c4;
+    color: #242331;
     padding: 30px;
     margin: 20px auto;
     max-width: 400px;
@@ -7,82 +8,8 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
 
-h1 {
+.main h1 {
     text-align: center;
 }
 
-.form {
-    margin-top: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.form input[type="text"] {
-    height: 40px;
-    margin-right: 10px;
-    padding: 8px;
-    border: none;
-    border-radius: 1px;
-    min-width: 80%;
-}
-
-.form button[type="submit"] {
-    padding: 12px;
-    border: none;
-    border-radius: 1px;
-    background: #bd1e1e;
-    color: #c4c4c4;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.form button[type="submit"]:hover{
-    background: #8c271e;
-}
-
-.tarefas {
-    margin-top: 30px;
-}
-
-.tarefas li {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    transition: all 600ms;
-}
-
-.tarefas li:hover {
-   
-    background: #c4c4c4;
-    color: #242331;
-}
-
-.tarefas li .edit{
-    margin-right: 15px;
-    color: #44af69;
-}
-
-.tarefas li .delete{
-    margin-right: 15px;
-    color: #f8333c;
-}
-
-.tarefas li:hover .edit,
-.tarefas li:hover .delete {
-  color: #242331;
-}
-
-.tarefas li .edit,
-.tarefas li .delete {
-    cursor: pointer;
-    transition: all 600ms;
-}
-
-.tarefas li .alinhamento {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
